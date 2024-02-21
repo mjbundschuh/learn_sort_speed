@@ -45,6 +45,7 @@ Binary search speed: average 5000x
 ## Learning Notes
 * Sets are extremely fast and was 33x faster than binary search
 * Lists are slower by 2 orders of magnitude
+* Indentation is important in python (shades of COBOL?)
 
 ## Testing and Assumptions
 
@@ -80,6 +81,7 @@ Abdiel
 * [Python Sets](https://realpython.com/python-sets/)
 * [Python Lists](https://realpython.com/python-list/#appending-a-single-item-at-once-append)
 * [Data World - Names](https://data.world/alexandra/baby-names)
+* [Using __name__ in main](https://stackoverflow.com/questions/419163/what-does-if-name-main-do#419185)
 
 ## License
 
