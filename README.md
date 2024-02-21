@@ -79,7 +79,7 @@ Abdiel
 
 * [Python Sets](https://realpython.com/python-sets/)
 * [Python Lists](https://realpython.com/python-list/#appending-a-single-item-at-once-append)
-* [Data World - Names][https://data.world/alexandra/baby-names]
+* [Data World - Names](https://data.world/alexandra/baby-names)
 
 ## License
 
