@@ -1,6 +1,6 @@
 # learn_sort_speed.py
 
-Simple python script to compare search speeds for Sets, Lists and binary search
+Simple python script to compare search speeds for Sets, Dictionarys, Lists and binary search
 
 ## Installation
 
@@ -16,7 +16,7 @@ Simple python script to compare search speeds for Sets, Lists and binary search
 
 <img src="images/learn_imap_yahoo2.png" alt="Select Download Location" height="200"/>
 
-*Repeat for the names.txt file*
+* Repeat for the names.txt file
 
 _In this example, I chose my $HOME/Applications folder to store the script. This folder is in my $PATH_
 
@@ -24,27 +24,31 @@ _In this example, I chose my $HOME/Applications folder to store the script. This
 
 Go to your Applications folder and run python on the script
 
-```bash
+```zsh
 % cd ~/Applications
 % python learn_sort_speed.py
 
-Set search speed: average 5000x
-	good list: 0.0004
-	 bad list: 0.0004
+set search speed: average 5000x
+    good list: 0.0005
+     bad list: 0.0004
 
-List search speed: average 5000x
-	good list: 0.2446
-	 bad list: 0.5182
+dict search speed: average 5000x
+    good list: 0.0004
+     bad list: 0.0004
 
-Binary search speed: average 5000x
-	good list: 0.0109
-	 bad list: 0.0114
+bsearch search speed: average 5000x
+    good list: 0.0099
+     bad list: 0.0111
+
+list search speed: average 5000x
+    good list: 0.2449
+     bad list: 0.5192
 
 ```
 
 ## Learning Notes
-* Sets are extremely fast and was 33x faster than binary search
-* Lists are slower by 2 orders of magnitude
+* Sets and Dictionaries are extremely fast and was 20x or more faster than binary search
+* Lists are slower by 2 orders of magnitude / 1000x than Sets or Dictionaries
 * Indentation is important in python (OMG shades of COBOL?)
 
 ## Testing and Assumptions
@@ -52,9 +56,9 @@ Binary search speed: average 5000x
 * This program was tested on a Macbook Air using iTerm2 (a better alternative to the terminal)
 * You should be using Python3 and it should be in your PATH when you run this program
 * You know how to use a terminal and command-line commands
-* names.txt database started with data from Data World, then supplemented with additional first names (mostly non-European). It has 7000+ first names.
+* names.txt database started with first name data from Data World, then supplemented with additional names (mostly non-European). It has 7000+ first names.
 
-```bash
+```zsh
 % cd ~/Applications
 % head -n 15 names.txt
 Aaden
